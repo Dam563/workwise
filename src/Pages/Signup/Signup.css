@@ -1,0 +1,40 @@
+/* Mobile view */
+@media (max-width: 425px) {
+
+    .home{
+        display: block !important;
+        width: 70% !important;
+        height: 850px !important;
+    }
+}
+
+
+.user-details{
+    border: 1px solid black;
+    width: 50%;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+.user-names{
+    position: relative;
+    padding-right: 40px;
+    width: 8%;
+    padding-bottom: 15px;
+}
+.terms{
+    width: 50%;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.backups{
+    display: flex;
+    gap: 10px;
+}
+.usernames{
+    position: relative;
+    padding-right: 30px;
+    width: 6%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
